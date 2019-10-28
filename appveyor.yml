@@ -1,0 +1,12 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+configuration: Release
+platform: x86
+build:
+  project: waifu2x_chainer_gui.sln
+  verbosity: normal
+artifacts:
+- path: waifu2x_i18n_gui\bin\x86\Release\waifu2x_chainer_gui.exe
+- path: waifu2x_i18n_gui\ja-JP\UIlang.ja-JP.xaml
+- path: waifu2x_i18n_gui\en-US\UILang.en-US.xaml
+- path: install.bat

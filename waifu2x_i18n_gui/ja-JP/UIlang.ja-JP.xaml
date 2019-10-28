@@ -1,0 +1,59 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="ResourceDictionaryName">waifu2xui-ja-JP</sys:String>
+    <!-- Localized strings -->
+    <sys:String x:Key="MainWnd_Title">waifu2x-chainer 多国言語 インタフェース</sys:String>
+    <sys:String x:Key="MainMenu_About">ソフトについて</sys:String>
+    <sys:String x:Key="MainMenu_Help">説明</sys:String>
+    <sys:String x:Key="MainMenu_Version">Version Info</sys:String>
+    <!-- Tabs -->
+    <sys:String x:Key="MainTab_IO">設定</sys:String>
+    <!-- Tab:IO -->
+    <sys:String x:Key="Main_IO_SrcPath">入力先:</sys:String>
+    <sys:String x:Key="Main_IO_DstPath">出力先:</sys:String>
+    <sys:String x:Key="Main_IO_btnSrc">入力先選択</sys:String>
+    <sys:String x:Key="Main_IO_SrcClear">クリア</sys:String>
+    <sys:String x:Key="Main_IO_btnDst">出力先選択</sys:String>
+    <sys:String x:Key="Main_IO_DstClear">クリア</sys:String>
+    <sys:String x:Key="Main_IO_OutFiletype">出力拡張子</sys:String>
+    <sys:String x:Key="Main_IO_OutFilequality">出力画質設定:</sys:String>
+    <sys:String x:Key="Main_IO_Src_Tooltip">画像名もしくはフォルダ名（必要）</sys:String>
+    <sys:String x:Key="Main_IO_Dst_Tooltip">出力先のフォルダ。空白の場合、入力画像と同じフォルダに新しい画像を生成する</sys:String>
+    <!-- Tab:Mode -->
+    <sys:String x:Key="Main_Mode_Set">変換モード</sys:String>
+    <sys:String x:Key="Main_Mode_Set_NoiseScale">ノイズ除去と拡大</sys:String>
+    <sys:String x:Key="Main_Mode_Set_Scale">拡大</sys:String>
+    <sys:String x:Key="Main_Mode_Set_Noise">ノイズ除去</sys:String>
+    <sys:String x:Key="Main_Mode_scale_ratio">拡大率を指定:　　　</sys:String>
+    <sys:String x:Key="Main_Mode_output_width">横幅を指定:</sys:String>
+    <sys:String x:Key="Main_Mode_output_height">縦幅を指定:</sys:String>
+    <sys:String x:Key="Main_Mode_shorter_side">短辺を指定:</sys:String>
+    <sys:String x:Key="Main_Mode_longer_side">長辺を指定:</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise">ノイズ除去</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_None">なし</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_0">レベル0</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_1">レベル1</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_2">レベル2</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_3">レベル3</sys:String>
+    <sys:String x:Key="Main_Mode_Arch">モデル</sys:String>
+    <sys:String x:Key="Main_Mode_Arch_VGG7">2次元イラスト (VGG7モデル)</sys:String>
+    <sys:String x:Key="Main_Mode_Arch_UpConv7">2次元イラスト (UpConv7モデル)</sys:String>
+    <sys:String x:Key="Main_Mode_Arch_ResNet10">2次元イラスト (ResNet10モデル)</sys:String>
+    <sys:String x:Key="Main_Mode_Arch_UpResNet10">2次元イラスト (UpResNet10モデル)</sys:String>
+    <!-- Tabs -->
+    <sys:String x:Key="MainTab_Preferences">動作設定</sys:String>
+    <!-- Tab:Preferences -->
+    <sys:String x:Key="Main_Preferences_waifu2x_chainerPath">waifu2x-chainerのパス:</sys:String>
+    <sys:String x:Key="Main_Device_gp">デバイス</sys:String>
+    <sys:String x:Key="Main_Device_Compute">GPU ID</sys:String>
+    <sys:String x:Key="Main_checkTTAmode">TTAモード</sys:String>
+    <sys:String x:Key="Main_checkStore_output_dir">前回出力したパスを記憶する</sys:String>
+    <sys:String x:Key="Main_checkSoundBeep">処理が終わったら音を鳴らす</sys:String>
+    <sys:String x:Key="Main_Device_Block">分割サイズ</sys:String>
+    <sys:String x:Key="Main_Device_Batch">バッチサイズ</sys:String>
+    <!-- Run button -->
+    <sys:String x:Key="Main_btnRun">実行</sys:String>
+    <!-- Abort button -->
+    <sys:String x:Key="Main_btnAbort">キャンセル</sys:String>
+</ResourceDictionary>

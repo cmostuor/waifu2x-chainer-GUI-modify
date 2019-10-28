@@ -1,0 +1,61 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="ResourceDictionaryName">waifu2xui-en-US</sys:String>
+    <!-- Localized strings -->
+    <sys:String x:Key="MainWnd_Title">waifu2x-chainer multilingual GUI</sys:String>
+    <sys:String x:Key="MenuItem_Language">Language</sys:String>
+    <sys:String x:Key="MainMenu_Language">English</sys:String>
+    <sys:String x:Key="MainMenu_About">About</sys:String>
+    <sys:String x:Key="MainMenu_Help">Help</sys:String>
+    <sys:String x:Key="MainMenu_Version">Version Info</sys:String>
+    <!-- Tabs -->
+    <sys:String x:Key="MainTab_IO">Settings</sys:String>
+    <!-- Tab:IO -->
+    <sys:String x:Key="Main_IO_SrcPath">Source:</sys:String>
+    <sys:String x:Key="Main_IO_DstPath">Destination:</sys:String>
+    <sys:String x:Key="Main_IO_btnSrc">Choose Src</sys:String>
+    <sys:String x:Key="Main_IO_SrcClear">Clear</sys:String>
+    <sys:String x:Key="Main_IO_btnDst">Choose Dst</sys:String>
+    <sys:String x:Key="Main_IO_DstClear">Clear</sys:String>
+    <sys:String x:Key="Main_IO_OutFiletype">Output extension:</sys:String>
+    <sys:String x:Key="Main_IO_OutFilequality">Output quality:</sys:String>
+    <sys:String x:Key="Main_IO_Src_Tooltip">Filename or folder path. REQUIRED field</sys:String>
+    <sys:String x:Key="Main_IO_Dst_Tooltip">Output destination folder path. If empty, generate a new file in the source folder</sys:String>
+    <!-- Tab:Mode -->
+    <sys:String x:Key="Main_Mode_Set">Conversion Mode</sys:String>
+    <sys:String x:Key="Main_Mode_Set_NoiseScale">Denoise &amp; Magnify</sys:String>
+    <sys:String x:Key="Main_Mode_Set_Scale">Magnify only</sys:String>
+    <sys:String x:Key="Main_Mode_Set_Noise">Denoise only</sys:String>
+    <sys:String x:Key="Main_Mode_scale_ratio">Set rate:</sys:String>
+    <sys:String x:Key="Main_Mode_output_width">Set trans width:</sys:String>
+    <sys:String x:Key="Main_Mode_output_height">Set trans height:</sys:String>
+    <sys:String x:Key="Main_Mode_shorter_side">Set shorter side:</sys:String>
+    <sys:String x:Key="Main_Mode_longer_side">Set longer side:</sys:String>    
+    <sys:String x:Key="Main_Mode_Denoise">Denoise</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_None">None</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_0">Level 0</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_1">Level 1</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_2">Level 2</sys:String>
+    <sys:String x:Key="Main_Mode_Denoise_3">Level 3</sys:String>
+    <sys:String x:Key="Main_Mode_Arch">Model</sys:String>
+    <sys:String x:Key="Main_Mode_Arch_VGG7">2-D illust (VGG7 Model)</sys:String>
+    <sys:String x:Key="Main_Mode_Arch_UpConv7">2-D illust (UpConv7 Model)</sys:String>
+    <sys:String x:Key="Main_Mode_Arch_ResNet10">2-D illust (ResNet10 Model)</sys:String>
+    <sys:String x:Key="Main_Mode_Arch_UpResNet10">2-D illust (UpResNet10 Model)</sys:String>
+    <!-- Tabs -->
+    <sys:String x:Key="MainTab_Preferences">Preferences</sys:String>
+    <!-- Tab:Preferences -->
+    <sys:String x:Key="Main_Preferences_waifu2x_chainerPath">waifu2x-chainer path:</sys:String>
+    <sys:String x:Key="Main_Device_gp">Device</sys:String>
+    <sys:String x:Key="Main_Device_Compute">GPU ID</sys:String>
+    <sys:String x:Key="Main_checkTTAmode">TTA Mode</sys:String>
+    <sys:String x:Key="Main_checkStore_output_dir">store the last output path</sys:String>
+    <sys:String x:Key="Main_checkSoundBeep">Play beep after processing</sys:String>
+    <sys:String x:Key="Main_Device_Block">Block Size</sys:String>
+    <sys:String x:Key="Main_Device_Batch">Batch Size</sys:String>
+    <!-- Run button -->
+    <sys:String x:Key="Main_btnRun">Run!</sys:String>
+    <!-- Abort button -->
+    <sys:String x:Key="Main_btnAbort">ABORT</sys:String>
+</ResourceDictionary>
